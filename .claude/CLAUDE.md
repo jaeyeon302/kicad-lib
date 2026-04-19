@@ -35,7 +35,7 @@ kicad-lib/
 - **Symbol naming inside manufacturer files**: `{PartNumber}` only (e.g., `TL071`)
 - **Manufacturer/category names**: no spaces, use underscores (e.g., `Texas_Instruments`)
 - **Footprint files**: one `.kicad_mod` per part, named by exact part number
-- **3D models**: `.step` preferred; `.wrl` optional alongside; placed in `3dmodels/{Manufacturer}/` or `3dmodels/Misc/`
+- **3D models**: `.step` preferred; `.wrl` optional alongside; placed in `3dmodels/{Manufacturer}/` or `3dmodels/Misc/`; do not generate — attempt to download from manufacturer site, GrabCAD, or SnapEDA
 - **3D model path in footprint**: `${KIPRJMOD}/../../3dmodels/{Manufacturer}/{PartNumber}.step`
 
 ## Category Files
