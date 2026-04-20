@@ -23,40 +23,40 @@ Source: [HDKSOE] LV VFD MCB 인터페이스_260213.pdf
 ## TODO
 
 ### Phase 1 — Confirm part list
-- [ ] User confirms the connector part list above
+- [x] User confirms the connector part list above
 
 ### Phase 2 — Datasheet download (per part)
-- [ ] 231-533 → download to `docs/datasheet/Phoenix_Contact/`
-- [ ] 231-534 → download to `docs/datasheet/Phoenix_Contact/`
-- [ ] 231-538 → download to `docs/datasheet/Phoenix_Contact/`
-- [ ] 232-364 → download to `docs/datasheet/Phoenix_Contact/`
-- [ ] 232-368 → download to `docs/datasheet/Phoenix_Contact/`
-- [ ] HIF3BA-30PA-2.54DSA → download to `docs/datasheet/Hirose/`
-- [ ] MJ-657PW-8-BK → identify manufacturer, download to `docs/datasheet/{Manufacturer}/`
-- [ ] 8498010210A → download to `docs/datasheet/Molex/`
-- [ ] 6368011-3 → download to `docs/datasheet/TE_Connectivity/`
+- [x] 231-533 → download to `docs/datasheet/Phoenix_Contact/`
+- [x] 231-534 → download to `docs/datasheet/Phoenix_Contact/`
+- [x] 231-538 → download to `docs/datasheet/Phoenix_Contact/`
+- [x] 232-364 → download to `docs/datasheet/Phoenix_Contact/`
+- [x] 232-368 → download to `docs/datasheet/Phoenix_Contact/`
+- [x] HIF3BA-30PA-2.54DSA → download to `docs/datasheet/Hirose/`
+- [x] MJ-657PW-8-BK → identify manufacturer, download to `docs/datasheet/{Manufacturer}/`
+- [x] 8498010210A → download to `docs/datasheet/Molex/`
+- [x] 6368011-3 → download to `docs/datasheet/TE_Connectivity/`
 
 ### Phase 3 — Symbol creation (strictly follow datasheet)
-- [ ] 231-533 — symbol in `Custom_Connector.kicad_sym`
-- [ ] 231-534 — symbol
-- [ ] 231-538 — symbol
-- [ ] 232-364 — symbol
-- [ ] 232-368 — symbol
-- [ ] HIF3BA-30PA-2.54DSA — symbol (30-pin, may warrant Phoenix_Contact file if grouped)
-- [ ] MJ-657PW-8-BK — symbol
-- [ ] 8498010210A — symbol
-- [ ] 6368011-3 — symbol
+- [x] 231-533 — symbol in `Custom_Connector.kicad_sym`
+- [x] 231-534 — symbol
+- [x] 231-538 — symbol
+- [x] 232-364 — symbol
+- [x] 232-368 — symbol
+- [x] HIF3BA-30PA-2.54DSA — symbol (30-pin, may warrant Phoenix_Contact file if grouped)
+- [x] MJ-657PW-8-BK — symbol
+- [x] 8498010210A — symbol
+- [x] 6368011-3 — symbol
 
 ### Phase 4 — Footprint creation (strictly follow datasheet land pattern)
-- [ ] 231-533 — footprint in `Custom_Connector.pretty/`
-- [ ] 231-534 — footprint
-- [ ] 231-538 — footprint
-- [ ] 232-364 — footprint
-- [ ] 232-368 — footprint
-- [ ] HIF3BA-30PA-2.54DSA — footprint
-- [ ] MJ-657PW-8-BK — footprint
-- [ ] 8498010210A — footprint
-- [ ] 6368011-3 — footprint
+- [x] 231-533 — footprint in `Custom_Connector.pretty/`
+- [x] 231-534 — footprint
+- [x] 231-538 — footprint
+- [x] 232-364 — footprint
+- [x] 232-368 — footprint
+- [x] HIF3BA-30PA-2.54DSA — footprint
+- [x] MJ-657PW-8-BK — footprint
+- [x] 8498010210A — footprint
+- [x] 6368011-3 — footprint
 
 ### Phase 5 — 3D model (download if available)
-- [ ] Search and download `.step` for each part; place in `3dmodels/{Manufacturer}/`
+- [x] Search and download `.step` for each part; place in `3dmodels/{Manufacturer}/`
