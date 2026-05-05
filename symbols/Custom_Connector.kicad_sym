@@ -2150,7 +2150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_connector:PJ002A"
+		(property "Footprint" "Custom_Connector:PJ002A"
 			(at 16.51 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -233,7 +233,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "custom_ic:SOIC127P700X230-16N"
+		(property "Footprint" "Custom_IC:SOIC127P700X230-16N"
 			(at 39.37 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -659,7 +659,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "custom_ic:SOIC127P1030X265-18N"
+		(property "Footprint" "Custom_IC:SOIC127P1030X265-18N"
 			(at 26.67 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
